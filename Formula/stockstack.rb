@@ -1,26 +1,26 @@
 class Stockstack < Formula
   desc "StockStack CLI — 日本株ファンダメンタル分析ツール"
   homepage "https://stockstack.app"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_darwin_arm64.tar.gz"
-      sha256 "24fb33890d34047ff98d13025344414a34e72e329f6a0fd4350ceb0568432944"
+      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.2.0/stockstack_darwin_arm64.tar.gz"
+      sha256 "e1b2a0ff6d98ddca8dfe6ab1ef3cb3c808664ccc2a8d6ebf02a1f55244a419af"
     else
-      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_darwin_amd64.tar.gz"
-      sha256 "d56339a8bba8c82a134b8d176afa53d07cace5197c609c63c28b72bea69c9baf"
+      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.2.0/stockstack_darwin_amd64.tar.gz"
+      sha256 "ff66621963f811bcf90289d79c022124e86630f71e15069c2023061c36c223e6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_linux_arm64.tar.gz"
-      sha256 "1b3d44763303325a5ff60e924a310c384b015d47f0a81b86c7f252461092c409"
+      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.2.0/stockstack_linux_arm64.tar.gz"
+      sha256 "a8b0958da52d8ba8bf2e4356036a34fda6dbd0f39c33b445aeba4f2251076cd9"
     else
-      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_linux_amd64.tar.gz"
-      sha256 "c0cf2337218474388cd6039d665b9a41465bf159abab983450e4c0f05a0072a1"
+      url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.2.0/stockstack_linux_amd64.tar.gz"
+      sha256 "6498612a872943c84864de3c44645104f090f1b2f9d253a0bac993ef69d528ef"
     end
   end
 
