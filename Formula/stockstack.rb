@@ -7,20 +7,20 @@ class Stockstack < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_darwin_arm64.tar.gz"
-      sha256 "c38c708d498742125a0a4c1398731d9e72c23e95eb1d95e395a1b339c1307b59"
+      sha256 "24fb33890d34047ff98d13025344414a34e72e329f6a0fd4350ceb0568432944"
     else
       url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_darwin_amd64.tar.gz"
-      sha256 "2b8bc3b7323f895d0b2be0da6586d913e592ceff20223f29c428ba07bac220de"
+      sha256 "d56339a8bba8c82a134b8d176afa53d07cace5197c609c63c28b72bea69c9baf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_linux_arm64.tar.gz"
-      sha256 "9ca9022c262814b2e21a7b99e74a6ccfc1940e10a066552fd64e60514ac1f45c"
+      sha256 "1b3d44763303325a5ff60e924a310c384b015d47f0a81b86c7f252461092c409"
     else
       url "https://github.com/stockstack-app/stockstack-cli/releases/download/v0.1.0/stockstack_linux_amd64.tar.gz"
-      sha256 "e4d8b83e88339da03c64c3e0596570929183e7ee812ba319dc2bfa33faf82355"
+      sha256 "c0cf2337218474388cd6039d665b9a41465bf159abab983450e4c0f05a0072a1"
     end
   end
 
